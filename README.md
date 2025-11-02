@@ -146,6 +146,8 @@ For the complete list of available settings, open VS Code Settings and search fo
 
 Colors-LE is built for speed and efficiently processes files from 1KB to 100KB+. See [detailed benchmarks](docs/PERFORMANCE.md).
 
+For detailed information, see [Performance Monitoring](docs/PERFORMANCE.md).
+
 **Performance Characteristics:**
 
 - Handles files up to 100KB efficiently
@@ -188,11 +190,17 @@ Absolutely! Audit color palettes, validate brand consistency, and analyze theme 
 **219 unit tests** • **89% function coverage, 74% line coverage**  
 Powered by Vitest • Run with `bun test --coverage`
 
+### Core Principle
+
+**No broken or failed tests are allowed in commits.** All tests must pass before code can be committed or merged.
+
 ### Test Suite Highlights
 
 - **44 error handling tests** with 89% coverage
 - **Comprehensive color format support** (HEX, RGB/RGBA, HSL/HSLA, named colors)
 - **CSS, SCSS, LESS, Stylus, HTML, JS/TS, SVG** extraction validation
+
+For detailed testing guidelines, see [Testing Guidelines](docs/TESTING.md).
 
 ---
 
